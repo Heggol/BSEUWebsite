@@ -72,7 +72,7 @@ app.put('/posts/:id', async (req, res) => {
         res.status(500).json({ error: 'Failed to update posts' });
     }
 });
-const PORT = process.env.PORT || 3000;
+const PORT = 3002;
 app.listen(PORT, () => {
     console.log(`Running at http://localhost:${PORT}`);
 });
