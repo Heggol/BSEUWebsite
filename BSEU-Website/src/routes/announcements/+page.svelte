@@ -29,7 +29,6 @@
     {#each announcements as post ( post.id)}
         <div class="posts">
             <a href={`/announcements/${post.id}`}>{post.title}</a>
-            
         </div>
     {/each}
 </div>
