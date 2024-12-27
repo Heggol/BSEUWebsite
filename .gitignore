@@ -14,3 +14,4 @@ vite.config.ts.timestamp-*
 *.pem
 /.idea
 drizzle
+BSEU-Website/gradients.json

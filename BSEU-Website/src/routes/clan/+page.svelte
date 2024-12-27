@@ -57,16 +57,16 @@
     
 </script>
 <nav class="navbar">
-    <a href="/" class="home-button">
+    <a href="/" class="button">
         Home
     </a>
-    <a href="/clan" class="clan-button">
+    <a href="/clan" class="button current">
         BSEU Clan
     </a>
-    <a href="/announcements" class="announcement-button">
+    <a href="/announcements" class="button">
         Announcements
     </a>
-    <a href="/about" class="about-button">
+    <a href="/about" class="button">
         About
     </a>
 </nav>
@@ -195,7 +195,7 @@
         padding: 6px;
         border-bottom: 2px solid #0f204c;
     }
-    .home-button {
+    .button {
         justify-content: center;
         color: #0f204c;
         padding: 12px 48px;
@@ -207,53 +207,10 @@
         border: none;
         transition: box-shadow 0.3s ease-out;
     }
-    .home-button:hover {
+    .button:hover {
         box-shadow: 0 0px 20px rgba(255, 255, 32, 0.75);
     }
-    .clan-button {
-        justify-content: center;
-        color: #0f204c;
+    .current {
         background-color: #5a5a5a70;
-        padding: 12px 48px;
-        font-size: 20px;
-        border-radius: 16px;
-        cursor: pointer;
-        text-decoration: none;
-        position: relative;
-        border: none;
-        transition: box-shadow 0.3s ease-out;
-    }
-    .clan-button:hover {
-        box-shadow: 0 0px 20px rgba(255, 255, 32, 0.75);
-    }
-    .announcement-button {
-        justify-content: center;
-        color: #0f204c;
-        padding: 12px 48px;
-        font-size: 20px;
-        border-radius: 16px;
-        cursor: pointer;
-        text-decoration: none;
-        position: relative;
-        border: none;
-        transition: box-shadow 0.3s ease-out;
-    }
-    .announcement-button:hover {
-        box-shadow: 0 0px 20px rgba(255, 255, 32, 0.75);
-    }
-    .about-button {
-        justify-content: center;
-        color: #0f204c;
-        padding: 12px 48px;
-        font-size: 20px;
-        border-radius: 16px;
-        cursor: pointer;
-        text-decoration: none;
-        position: relative;
-        border: none;
-        transition: box-shadow 0.3s ease-out;
-    }
-    .about-button:hover {
-        box-shadow: 0 0px 20px rgba(255, 255, 32, 0.75);
     }
 </style>
